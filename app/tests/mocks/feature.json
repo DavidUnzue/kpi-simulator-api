@@ -1,0 +1,9 @@
+{
+  "id": "30",
+  "type": "Feature",
+  "properties": { "id": "u336zeubecr4", "name": "S+U Westhafen (Berlin)" },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.344095856950092, 52.53534073553493]
+  }
+}
