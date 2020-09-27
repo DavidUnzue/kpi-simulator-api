@@ -6,6 +6,7 @@ from .config import config
 app = FastAPI()
 
 origins = [
+    'https://kpi-simulator-api.herokuapp.com',
     config['client_url'],
 ]
 
