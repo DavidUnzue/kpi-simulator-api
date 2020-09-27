@@ -1,5 +1,11 @@
 # KPI simulation API
 
+## TL;DR
+
+Try the deployed API on Heroku:
+
+[https://kpi-simulator-api.herokuapp.com/kpis](https://kpi-simulator-api.herokuapp.com/kpis)
+
 ## Installation
 
 Due to issues with the installation of Geopandas' dependecies, it's adviced to install and use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for the package management instead of alternatives like `pip`. Also, make sure you have [geos](https://trac.osgeo.org/geos) installed in your system:
