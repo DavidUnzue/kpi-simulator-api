@@ -8,7 +8,28 @@ Try the deployed API on Heroku:
 
 ## Installation
 
-Due to issues with the installation of Geopandas' dependecies, it's adviced to install and use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for the package management instead of alternatives like `pip`. Also, make sure you have [geos](https://trac.osgeo.org/geos) installed in your system:
+### Option 1
+
+Create and activate a visrtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install dependencies with pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you encounter issues installing dependencies this way, remove the virtual environment you just created and try with option 2 below.
+
+### Option 2
+
+Due to issues with the installation of Geopandas' dependecies, it's adviced to install and use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for the package management instead of alternatives like `pip`.
+
+First, make sure you have [geos](https://trac.osgeo.org/geos) installed in your system:
 
 ```bash
 # for macOS with homebrew
